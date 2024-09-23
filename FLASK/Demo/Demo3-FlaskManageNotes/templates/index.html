@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes</h1>
+        <ul>
+            {% for note in notes %}
+                <li>{{ note }} <a href="{{ url_for('delete_note', note_id=loop.index0) }}">Delete</a></li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('add_note') }}">Add a New Note</a>
+    </div>
+</body>
+</html>

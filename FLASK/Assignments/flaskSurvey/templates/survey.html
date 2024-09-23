@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Survey Questions</h1>
+    <form action="/results" method="POST">
+        <label for="name">What is your name?</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="favorite_color">What is your favorite color?</label>
+        <input type="text" id="favorite_color" name="favorite_color" required><br><br>
+
+        <label for="feedback">Any feedback?</label>
+        <textarea id="feedback" name="feedback" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
