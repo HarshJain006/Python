@@ -53,53 +53,56 @@ An audio-focused application that implements real-time filtering to process and 
 - Libraries: Install the required libraries using the command:
   ```bash
   pip install -r requirements.txt
+
 Setup
 Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/signal-processing-projects.git
+
+``git clone https://github.com/yourusername/signal-processing-projects.git``
+
 Navigate to the project directory:
-bash
-Copy code
-cd signal-processing-projects
+
+``cd signal-processing-projects``
 Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
+
+``pip install -r requirements.txt``
 Usage
 Run the main script for EEG analysis:
-bash
-Copy code
-python eeg_analysis.py
+``python eeg_analysis.py``
+
 Run the GUI for audio signal processing:
-bash
-Copy code
 python audio_processor.py
+
 Filters Available
 High-Pass Filter: Removes low-frequency noise.
 Low-Pass Filter: Smoothens high-frequency noise.
 Band-Pass Filter: Isolates specific frequency ranges.
 Notch Filter: Removes specific frequencies (e.g., power line noise).
+
 Controls
 Load an audio file and apply filters interactively.
 Stop or restart playback to preview changes dynamically.
+
 Technologies Used
 Programming Language: Python
 Libraries:
 numpy, scipy: For signal processing.
 matplotlib: For visualization.
 tkinter: For GUI development.
+
 Tools:
 Audio spectrum visualization.
 Filter design and application.
+
 Future Enhancements
 Add AI-based adaptive filters for better noise isolation.
 Extend EEG analysis for medical diagnostic support.
 Incorporate machine learning models for audio classification.
 Multi-language GUI support.
+
 Contributors
 Your Name (Project Lead)
-Ritika, Geetika Shekhawat, and Jayesh Chauriwar (Collaborators)
+Geetika Shekhawat, and Jayesh Chauriwar (Collaborators)
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
